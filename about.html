@@ -64,6 +64,10 @@
     .timeline-item:last-child{border-bottom:1px solid var(--gray-200);}
     .timeline-year{font-family:var(--font-en);font-size:15px;font-weight:500;color:var(--blue);padding-top:2px;}
     .timeline-content{font-size:14px;color:var(--gray-600);line-height:1.7;}
+    .tl-entry{display:flex;flex-direction:column;gap:2px;}
+    .tl-entry + .tl-entry{margin-top:12px;}
+    .tl-entry strong{font-size:15px;font-weight:700;color:var(--gray-900);}
+    .tl-entry span{font-size:13px;color:var(--gray-600);}
     /* MAP */
     .map-section{padding:64px 0;border-bottom:1px solid var(--gray-200);} .map-inner{max-width:1200px;margin:0 auto;padding:0 40px;}
     .map-inner{max-width:1200px;margin:0 auto;}
@@ -151,9 +155,12 @@
     <div class="section-label">HISTORY</div>
     <h2 style="font-size:22px;font-weight:700;margin-bottom:24px;" class="fade-up">연혁</h2>
     <div class="timeline">
-      <div class="timeline-item fade-up"><div class="timeline-year">2026</div><div class="timeline-content">AI 신상품 생산·판매·리오더 분석 솔루션 출시</div></div>
+      <div class="timeline-item fade-up"><div class="timeline-year">2026</div><div class="timeline-content">
+        <div class="tl-entry"><strong>FashionaiMD 개발</strong><span>AI 기반 신제품 계획 · 초도 배분 · 판매분 배분 · 추가생산(리오더)</span></div>
+        <div class="tl-entry"><strong>신버전 패션ERP 「ASO ERP feat. AI」 출시</strong><span>AI 도우미 · AI 착장 이미지 · 코디 이미지</span></div>
+      </div></div>
       <div class="timeline-item fade-up"><div class="timeline-year">2022</div><div class="timeline-content">패션 ERP 클라우드 버전 출시 · 온라인 쇼핑몰 연동 모듈 추가</div></div>
-      <div class="timeline-item fade-up"><div class="timeline-year">2018</div><div class="timeline-content">모바일 재고 관리 앱 출시 · 고객사 70여 개 돌파</div></div>
+      <div class="timeline-item fade-up"><div class="timeline-year">2018</div><div class="timeline-content">모바일 재고 관리 앱 출시 · 누적 고객사 100개 돌파</div></div>
       <div class="timeline-item fade-up"><div class="timeline-year">2015</div><div class="timeline-content">웹 기반 패션 ERP 전면 개편 · 멀티 채널 판매 관리 기능 추가</div></div>
       <div class="timeline-item fade-up"><div class="timeline-year">2013</div><div class="timeline-content">CRM·문자 발송 통합 모듈 출시</div></div>
       <div class="timeline-item fade-up"><div class="timeline-year">2010</div><div class="timeline-content">ASO Korea 설립 · 패션 ERP 1.0 출시</div></div>
